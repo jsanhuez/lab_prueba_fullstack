@@ -1,0 +1,15 @@
+{
+  "name": "lab_prueba_fullstack",
+  "version": "0.0.1",
+  "description": "Monorepo for lab prueba fullstack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Sanhueza",
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "20.4.6"
+  },
+  "nx": {}
+}
