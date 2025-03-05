@@ -1,8 +1,11 @@
 # Prueba Fullstack - Pokémon TCG API y Frontend
 
+<img src="./screenshot.png" width="100%">
+
 ## Descripción
 
-API y frontend con información de los sets y cartas del juego Pokémon TCG
+API y frontend con información de los sets y cartas del juego Pokémon TCG.
+
 Monorepo utilizando NX Workspaces, NestJS, NextJS y Postgresql
 
 ## Comenzar

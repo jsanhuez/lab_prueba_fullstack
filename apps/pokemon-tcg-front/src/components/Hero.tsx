@@ -31,6 +31,7 @@ const Hero = ({ currentSet }: any) => {
           height={40}
           priority
           className="object-contain"
+          unoptimized
         />
 
         <div className="bg-transparent">
