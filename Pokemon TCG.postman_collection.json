@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "bd140846-3c19-428e-8bd4-e67833f199c6",
+		"name": "Pokemon TCG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16228550",
+		"_collection_link": "https://serviciostabano.postman.co/workspace/Gr%C3%BAa-F%C3%A1cil~de2c6bfa-6d6d-47f3-8839-1cf4eac96952/collection/16228550-bd140846-3c19-428e-8bd4-e67833f199c6?action=share&source=collection_link&creator=16228550"
+	},
+	"item": [
+		{
+			"name": "Lista todos los sets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4001/api/sets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"sets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista todas las cartas de un set específico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4001/api/sets/sv3pt5/cards",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"sets",
+						"sv3pt5",
+						"cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Devuelve información detallada de una carta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4001/api/cards/sv8-2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4001",
+					"path": [
+						"api",
+						"cards",
+						"sv8-2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
